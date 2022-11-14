@@ -1,0 +1,45 @@
+*{
+	font-family: 'Monsieur La Doulaise', cursive;
+	font-weight: 200;
+	font-size: 1.2em;
+}
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	height: 100vh;
+	align-content: center;
+	justify-content: center;
+}
+.flex-item {
+	background-color: #240;
+	color: #fff;
+	margin: 5px;
+	height: 120px;
+	min-width: 120px;
+	text-align: center;
+
+	
+}
+.one {
+	background: rgb(69,179,157);
+	flex-grow: 5;
+}
+.two {
+	background: rgb(22,160,133);
+	flex-grow: 4;
+}
+.three {
+	background: rgb(19,141,117);
+	flex-grow: 3;
+}
+.four {
+	background: rgb(17,122,101);
+	flex-grow: 2;
+}
+.five {
+	background: rgb(14,102,85);
+	flex-grow: 1;
+}
+.six {
+	background: rgb(11,83,69);
+}
